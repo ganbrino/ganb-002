@@ -1,0 +1,72 @@
+# The URL the site will be built for
+base_url = "https:\\www.bluebird.net.br"
+
+
+
+default_language = 'en'
+
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+theme = "dinkleberg"
+description = "Heuristic-based Recommendation Systems"
+
+title = "HB-RS"
+compile_sass = true
+
+
+paginate_by = 5
+
+generate_rss = false
+
+generate_categories_pages = true
+generate_tags_pages = true
+
+taxonomies = [
+    # You can enable/disable RSS
+    {name = "categories", rss = true},
+    {name = "tags", rss = true},
+]
+
+
+[extra]
+blog_logo="/imgs/common/logo.png" #will appear on top header
+blog_title="BlueBirdnets::br::RS" #will appear on top header after logo
+
+## i18n words
+label_tags = "Tags"
+label_tag = "Tag"
+label_categories = "Categorical"
+label_category = "Category"
+label_relative_posts = "Related Posts"
+label_next = "Next"
+label_previous = "Before"
+label_page = "Page"
+label_of = "of"
+label_minutes = "minute"
+
+og_image="" # Image that will appear on social media
+og_alt_image="" # Alt for og_image
+og_site_name="" # Site Name for Open Graphic
+keywords="" # Keywords for SEO
+
+educational_use="Evolutionary knowledge" # OPTIONAL
+copyright_year="2021" # OPTIONAL
+
+fb_app_id="???" # OPTIONAL, Facebook App Id to help in metrics
+twitter_username="@???" # OPTIONAL, Twitter User to help with metrics
+
+## Sidebar automatic links
+sidebar = [
+    {name = "Social", urls=[
+        {name="engibia", url="https://www.engibia.com.br"},
+        {name="Github", url="https://google.com/"},
+    ]},
+    {name = "More about", urls=[
+        {name="Contribute", url="https://github.com/ganbrino"}
+    ]}
+]
