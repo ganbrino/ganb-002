@@ -8,7 +8,7 @@ categories = ["Knowledge Type"]
 tags = ["heuristic", "knowledge", "ontology"]
 
 [extra]
-author = "Mr. Silva"
+author = "ganbrino"
 relative_posts=[
     {label="Other about ontologies", url="/onto/other-application"}
 ]
