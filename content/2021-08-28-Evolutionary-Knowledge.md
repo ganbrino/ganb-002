@@ -16,4 +16,4 @@ relative_posts=[
 
 # Abstract
 
-In this post I will explain what are heuristic methods and how to use them in automated techical systems.
+In this post I will explain what are heuristic methods and how to use them in automated techical systems. yet
