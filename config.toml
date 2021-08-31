@@ -1,5 +1,8 @@
 # The URL the site will be built for
+
+
 base_url = "https://engibia.com.br"
+
 
 
 
@@ -35,7 +38,7 @@ taxonomies = [
 
 [extra]
 blog_logo="/imgs/common/logo.png" #will appear on top header
-blog_title="BlueBirdnets::br::RS" #will appear on top header after logo
+blog_title="BlueBirdnets::br::engibia" #will appear on top header after logo
 
 ## i18n words
 label_tags = "Tags"
@@ -63,7 +66,7 @@ twitter_username="@???" # OPTIONAL, Twitter User to help with metrics
 ## Sidebar automatic links
 sidebar = [
     {name = "Social", urls=[
-        {name="engibia", url="https://www.engibia.com.br"},
+        {name="bluebird", url="https://www.bluebird.net.br"},
         {name="Github", url="https://google.com/"},
     ]},
     {name = "More about", urls=[
