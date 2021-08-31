@@ -15,7 +15,7 @@ ZOLA_VERSION = "0.9.0"
 # `$DEPLOY_PRIME_URL`.
 
 [context.deploy-preview]
-=======
+
 [build]
 # assuming the Zola site is in a docs folder, if it isn't you don't need
 # to have a `base` variable but you do need the `publish` and `command`
